@@ -1,6 +1,3 @@
-# Final_Project_RPSE
-Revenue Prediction System
-
 # Final_Project_Revenue_Planning_System_E-Commerce
 
 by: Asyraf Ilmansyah Hia
