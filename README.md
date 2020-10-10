@@ -38,40 +38,43 @@ The App is installed in Localhost
 HOMEPAGE
 ---
 Home interface:
-![](https://github.com/bagjasatia/Final_Project_SBA_Loan_Approval/blob/master/Interface/home-interface.png)
+![](https://github.com/asyrafhia/Final_Project_RPSE/blob/main/Interface/Home.png)
 
 About interface:
-![](https://github.com/bagjasatia/Final_Project_SBA_Loan_Approval/blob/master/Interface/about-interface.png)
+![](https://github.com/asyrafhia/Final_Project_RPSE/blob/main/Interface/About.png)
 
 PREDICTION PAGE 
 ---
-![](https://github.com/bagjasatia/Final_Project_SBA_Loan_Approval/blob/master/Interface/predict-interface.png)
+![](https://github.com/asyrafhia/Final_Project_RPSE/blob/main/Interface/Revenue%20Prediction.png)
 
 The application user can input data as described below:
-- `NewExist`               : Business Condition when the loan is set.
-- `RevLineCr`              : Revolving line of credit which means that if the loan has been paid, the borrower can be able to immediately borrow again.
-- `LowDoc            `     : LowDoc Loan Program means the borrower can borrow with little administration..
-- `NAICS`                  : North American industry classification system code
-- `Term`                   : The term provides information on how long the loan will take
-- `GrAppv`                 : Gross amount of loan approved by bank
-- `SBA_Appv`               : SBA's guaranteed amount of approved loan
+- `Number of Administrative Page`  : Represent the number of administrative pages category visited by the visitor in that session. The administrative page is like profile, address, user account, etc.
+- `Number of Informational Page`   : Represent the number of informational pages category visited by the visitor in that session. The informational page is like article, information, etc.
+- `Number of Product Related Page` : Represent the number of product related pages category visited by the visitor in that session. The product related page is like the description of the product, price, stock, etc.
+- `Accumulation of Exit Rates`     : Represent the metrics Exit Rates measured by "Google Analytics" for each page in the e-commerce site. The value of "Exit Rate" feature for a specific web page is calculated as for all pageviews to the page, the percentage that were the last in the session.
+- `Number of Page Values`          : Represent the metrics Page Values measured by "Google Analytics" for each page in the e-commerce site. The "Page Value" feature represents the average value for a web page that a user visited before completing an e-commerce transaction.
+- `Time Gap to Special Day`        : The "Special Day" feature indicates the closeness of the site visiting time to a specific special day (e.g. Mother’s Day, Valentine's Day) in which the sessions are more likely to be finalized with transaction.
+- `Month`               		   : Name of the month
+- `Region`               		   : Name of the region
+- `Traffic Type`                   : Name of the traffic type
+- `Visitor Type`                   : Name of the visitor type
+- `Weekend`               		   : Name of the weekend
 
 PREDICTION RESULT
 ---
 The prediction result interface:
-![](https://github.com/bagjasatia/Final_Project_SBA_Loan_Approval/blob/master/Interface/result-interface.png)
+![](https://github.com/asyrafhia/Final_Project_RPSE/blob/main/Interface/Result.png)
 
 VISUALISATION PAGE
 ---
 Histogram
-![](https://github.com/bagjasatia/Final_Project_SBA_Loan_Approval/blob/master/Interface/boxplot-interface.png)
+![](https://github.com/asyrafhia/Final_Project_RPSE/blob/main/Interface/Histogram.png)
 
 Boxplot
-![](https://github.com/bagjasatia/Final_Project_SBA_Loan_Approval/blob/master/Interface/histogram-interface.png)
+![](https://github.com/asyrafhia/Final_Project_RPSE/blob/main/Interface/Boxplot.png)
 
 Scatter Plot
-![](https://github.com/bagjasatia/Final_Project_SBA_Loan_Approval/blob/master/Interface/scatter-interface.png)
+![](https://github.com/asyrafhia/Final_Project_RPSE/blob/main/Interface/Scatter.png)
 
 Pie Chart
-![](https://github.com/bagjasatia/Final_Project_SBA_Loan_Approval/blob/master/Interface/pie-chart-interface.png)
-
+![](https://github.com/asyrafhia/Final_Project_RPSE/blob/main/Interface/Pie.png)
