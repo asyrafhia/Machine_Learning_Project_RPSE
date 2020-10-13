@@ -35,16 +35,17 @@ APPS
 The App is installed in Localhost
 
 
-HOMEPAGE
+HOME PAGE
 ---
-Home interface:
+Home Interface:
 ![](https://github.com/asyrafhia/Final_Project_RPSE/blob/main/Interface/Home.png)
 
-About interface:
+About Interface:
 ![](https://github.com/asyrafhia/Final_Project_RPSE/blob/main/Interface/About.png)
 
 PREDICTION PAGE 
 ---
+Prediction Interface:
 ![](https://github.com/asyrafhia/Final_Project_RPSE/blob/main/Interface/Revenue%20Prediction.png)
 
 The application user can input data as described below:
@@ -62,27 +63,27 @@ The application user can input data as described below:
 
 PREDICTION RESULT
 ---
-The prediction result interface:
+Prediction Result Interface:
 ![](https://github.com/asyrafhia/Final_Project_RPSE/blob/main/Interface/Result.png)
 
-VISUALISATION PAGE
+VISUALIZATION PAGE
 ---
-Histogram
+Histogram Interface:
 ![](https://github.com/asyrafhia/Final_Project_RPSE/blob/main/Interface/Histogram.png)
 
-Boxplot
+Boxplot Interface:
 ![](https://github.com/asyrafhia/Final_Project_RPSE/blob/main/Interface/Boxplot.png)
 
-Scatter Plot
+Scatter Plot Interface:
 ![](https://github.com/asyrafhia/Final_Project_RPSE/blob/main/Interface/Scatter.png)
 
-Pie Chart
+Pie Chart Interface:
 ![](https://github.com/asyrafhia/Final_Project_RPSE/blob/main/Interface/Pie.png)
 
-Data Management PAGE
+DATA MANAGEMENT PAGE
 ---
-List of Data
+List of Data Interface:
 ![](https://github.com/asyrafhia/Final_Project_RPSE/blob/main/Interface/List%20of%20Data.png)
 
-Create New Data
+Create New Data Interface:
 ![](https://github.com/asyrafhia/Final_Project_RPSE/blob/main/Interface/Create%20New%20Data.png)
