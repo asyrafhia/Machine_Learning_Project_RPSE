@@ -59,7 +59,7 @@ The application user can input data as described below:
 - `Region`               		   : Name of the region
 - `Traffic Type`                   : Name of the traffic type
 - `Visitor Type`                   : Name of the visitor type
-- `Weekend`               		   : Name of the weekend
+- `Weekend`               		   : Type of the weekend
 
 PREDICTION RESULT
 ---
