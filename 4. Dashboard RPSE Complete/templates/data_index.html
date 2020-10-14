@@ -1,0 +1,59 @@
+{% extends "data_main.html" %}
+
+{% block title %}List of Data{% endblock %}
+
+{% block content %}
+<div class="container-fluid" style="overflow-x: scroll;">
+      <table class="table">
+          <thead>   <!-- thead itu table header -->
+            <tr>
+              <th scope="col">ID</th>
+              <th scope="col">Administrative</th>
+              <th scope="col">Administrative Duration</th>
+              <th scope="col">Information</th>
+              <th scope="col">Information Duration</th>
+              <th scope="col">Product Relate</th>
+              <th scope="col">Product Relate Duration</th>
+              <th scope="col">Bounce Rates</th>
+              <th scope="col">Exit Rates</th>
+              <th scope="col">Page Values</th>
+              <th scope="col">Special Day</th>
+              <th scope="col">Month</th>
+              <th scope="col">Operating System</th>
+              <th scope="col">Browser</th>
+              <th scope="col">Region</th>
+              <th scope="col">Traffic Type</th>
+              <th scope="col">Visitor Type</th>
+              <th scope="col">Weekend</th>
+              <th scope="col">Revenue</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for row in onlineshop %}
+              <tr>  <!-- tr itu table row -->
+                <!-- <th scope="row">{{ row.0 }}</th>  th itu table head -->
+                <td>{{ row.0 }}</td>
+                <td>{{ row.1 }}</td>  <!-- td itu table data -->
+                <td>{{ row.2 }}</td>
+                <td>{{ row.3 }}</td>
+                <td>{{ row.4 }}</td>
+                <td>{{ row.5 }}</td>
+                <td>{{ row.6 }}</td>
+                <td>{{ row.7 }}</td>
+                <td>{{ row.8 }}</td>
+                <td>{{ row.9 }}</td>
+                <td>{{ row.10 }}</td>
+                <td>{{ row.11 }}</td>
+                <td>{{ row.12 }}</td>
+                <td>{{ row.13 }}</td>
+                <td>{{ row.14 }}</td>
+                <td>{{ row.15 }}</td>
+                <td>{{ row.16 }}</td>
+                <td>{{ row.17 }}</td>
+                <td>{{ row.18 }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+  </div>
+{% endblock %}

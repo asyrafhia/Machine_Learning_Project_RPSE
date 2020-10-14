@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Project</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        
+      <a class="navbar-brand" href="/">RPSE</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/prediction">Revenue Prediction</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Data Visualization
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="{{ url_for('cat_fn', nav=True) }}">Histogram & Box plot</a>
+              <a class="dropdown-item" href="{{ url_for('scatt_fn') }}">Scatter Plot</a>
+              <a class="dropdown-item" href="{{ url_for('pie_fn') }}">Pie</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Data Management
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="/data_main">List of Data</a>
+              <a class="dropdown-item" href="/data_create">Create New Data</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br>
+    <center>
+        <img src="http://localhost:3838/static/revenue_planning_logo.png" width="17%">
+      </center>
+      
+      <h2 class='text-center display-9 my-1' style="color: rgb(2, 2, 97);">Revenue Planning System for E-Commerce</h2>
+      <br>
+      <div class="container-fluid bg-dark">
+        <h1 class='text-center display-4 my-3 text-light'>About the Project!</h1>
+        <p class='text-light mx-5'>
+          The Revenue Planning System for E-Commerce is a system that can predict and visualize the impact of revenue in a e-commerce website.
+          The dataset for making this system is from <a href="https://www.kaggle.com/roshansharma/online-shoppers-intention">here</a>.
+        </p>
+        <p class='text-light mx-5'>
+          The dataset consists of 10 numerical and 8 categorical attributes.
+          The 'Revenue' attribute can be used as the class label.
+          "Administrative", "Administrative Duration", "Informational", "Informational Duration", "Product Related" and "Product Related Duration" represent the number of different types of pages visited by the visitor in that session and total time spent in each of these page categories. The values of these features are derived from the URL information of the pages visited by the user and updated in real time when a user takes an action, e.g. moving from one page to another. The "Bounce Rate", "Exit Rate" and "Page Value" features represent the metrics measured by "Google Analytics" for each page in the e-commerce site. The value of "Bounce Rate" feature for a web page refers to the percentage of visitors who enter the site from that page and then leave ("bounce") without triggering any other requests to the analytics server during that session. The value of "Exit Rate" feature for a specific web page is calculated as for all pageviews to the page, the percentage that were the last in the session. The "Page Value" feature represents the average value for a web page that a user visited before completing an e-commerce transaction. The "Special Day" feature indicates the closeness of the site visiting time to a specific special day (e.g. Mother’s Day, Valentine's Day) in which the sessions are more likely to be finalized with transaction. The value of this attribute is determined by considering the dynamics of e-commerce such as the duration between the order date and delivery date. For example, for Valentina’s day, this value takes a nonzero value between February 2 and February 12, zero before and after this date unless it is close to another special day, and its maximum value of 1 on February 8. The dataset also includes operating system, browser, region, traffic type, visitor type as returning or new visitor, a Boolean value indicating whether the date of the visit is weekend, and month of the year.
+        </p>
+        <p class='text-light mx-5'>
+            Related to this, In this final project I will build a Flask-based web app that can recommend whether the e-commerce website can make revenue or not based on the given term and google analytics of the website. I use Random Forest Classifier algorithm to do prediction for Revenue. The algorithm was chosen after going through various analyses on dataset and after making some comparison with other machine learning models.
+        </p>
+        <p class='text-light mx-5'>
+          
+        </p>
+        <br>
+      </div>
+      <div class="row justify-content-center">
+        <footer class="sticky-footer bg-white">
+          <div class="container my-auto">
+            <div class="copyright text-center my-auto">
+              <span>Copyright &copy; Asyraf Ilmansyah Hia 2020</span>
+            </div>
+          </div>
+        </footer>
+        
+      </div>
+</body>
