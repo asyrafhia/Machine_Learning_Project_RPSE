@@ -27,7 +27,7 @@ In this final project I will build a Flask-based web app that can recommend whet
 PROJECT GOALS
 ---
 
-The goal of the project is to reduce the risk of placing the marketing budget, that should allocate to something that clearly adds to revenue, by making machine learning-based applications to determine the revenue of an e-commerce website based on historical data.
+The goal of the project is to reduce the risk of misallocation of marketing budgets, that should allocate to something that clearly adds to revenue, by making machine learning-based applications to determine the revenue of an e-commerce website based on historical data.
 
 
 APPS
