@@ -1,4 +1,4 @@
-# Final_Project_Revenue_Planning_System_For_E-Commerce
+# Project_Revenue_Planning_System_For_E-Commerce
 
 by: Asyraf Ilmansyah Hia
 
